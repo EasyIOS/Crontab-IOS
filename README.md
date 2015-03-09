@@ -49,7 +49,7 @@ NSString * cronRule = @"1";
         NSLog(@"1 executed");
 }];
 ```
-* The cronRule is kind of NSString class , and separated By a Space.
+* The cronRule is kind of NSString class ,  with only one number.
 
 * The cronRule number represents the total times of the app launch.
 
