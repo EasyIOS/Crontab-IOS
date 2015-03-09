@@ -55,7 +55,7 @@ NSString * cronRule = @"1";
 
 * `@"1"` means the first day's first launch，just like the `@"1 1"`.
 
-* `@"*"` means the first day's first launch，just like the `@"* *"`.
+* `@"*"` means the every launch，just like the `@"* *"`.
 
 # Example 
 
