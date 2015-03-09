@@ -26,7 +26,7 @@ pod "Crontab-IOS"
 NSString * cronRule = @"1 1";
 [CronTabCenter addCronJob:cronRule forBlock:^{
         NSLog(@"1 1 executed");
-    }];
+}];
 ```
 
 * The cronRule is kind of NSString class , and separated By a Space.
@@ -47,7 +47,7 @@ NSString * cronRule = @"1 1";
 NSString * cronRule = @"1";
 [CronTabCenter addCronJob:cronRule forBlock:^{
         NSLog(@"1 executed");
-    }];
+}];
 ```
 * The cronRule is kind of NSString class , and separated By a Space.
 
@@ -84,6 +84,7 @@ This is just a example to show the usage of crontab-ios
     [CronTabCenter addCronJob:@"3" forBlock:^{
         NSLog(@"3 executed");
     }];
+    
 ```
 
 
