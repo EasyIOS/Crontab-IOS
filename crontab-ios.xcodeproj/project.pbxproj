@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA3DAEB1AAD6F93009F9865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DAEA1AAD6F93009F9865 /* main.m */; };
+		5BA3DAEE1AAD6F93009F9865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DAED1AAD6F93009F9865 /* AppDelegate.m */; };
+		5BA3DAF11AAD6F93009F9865 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DAF01AAD6F93009F9865 /* ViewController.m */; };
+		5BA3DAF41AAD6F93009F9865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3DAF21AAD6F93009F9865 /* Main.storyboard */; };
+		5BA3DAF61AAD6F93009F9865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3DAF51AAD6F93009F9865 /* Images.xcassets */; };
+		5BA3DAF91AAD6F93009F9865 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3DAF71AAD6F93009F9865 /* LaunchScreen.xib */; };
+		5BA3DB051AAD6F93009F9865 /* crontab_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DB041AAD6F93009F9865 /* crontab_iosTests.m */; };
+		5BA3DB191AAD8C73009F9865 /* CronTabCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DB161AAD8C73009F9865 /* CronTabCenter.m */; };
+		5BA3DB1A1AAD8C73009F9865 /* CronTabData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DB181AAD8C73009F9865 /* CronTabData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA3DAFF1AAD6F93009F9865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA3DADD1AAD6F93009F9865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA3DAE41AAD6F93009F9865;
+			remoteInfo = "crontab-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BA3DAE51AAD6F93009F9865 /* crontab-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "crontab-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA3DAE91AAD6F93009F9865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA3DAEA1AAD6F93009F9865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BA3DAEC1AAD6F93009F9865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BA3DAED1AAD6F93009F9865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BA3DAEF1AAD6F93009F9865 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BA3DAF01AAD6F93009F9865 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BA3DAF31AAD6F93009F9865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BA3DAF51AAD6F93009F9865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BA3DAF81AAD6F93009F9865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5BA3DAFE1AAD6F93009F9865 /* crontab-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "crontab-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA3DB031AAD6F93009F9865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA3DB041AAD6F93009F9865 /* crontab_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crontab_iosTests.m; sourceTree = "<group>"; };
+		5BA3DB151AAD8C73009F9865 /* CronTabCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronTabCenter.h; sourceTree = "<group>"; };
+		5BA3DB161AAD8C73009F9865 /* CronTabCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CronTabCenter.m; sourceTree = "<group>"; };
+		5BA3DB171AAD8C73009F9865 /* CronTabData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CronTabData.h; sourceTree = "<group>"; };
+		5BA3DB181AAD8C73009F9865 /* CronTabData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CronTabData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA3DAE21AAD6F93009F9865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3DAFB1AAD6F93009F9865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA3DADC1AAD6F93009F9865 = {
+			isa = PBXGroup;
+			children = (
+				5BA3DAE71AAD6F93009F9865 /* crontab-ios */,
+				5BA3DB011AAD6F93009F9865 /* crontab-iosTests */,
+				5BA3DAE61AAD6F93009F9865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA3DAE61AAD6F93009F9865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3DAE51AAD6F93009F9865 /* crontab-ios.app */,
+				5BA3DAFE1AAD6F93009F9865 /* crontab-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA3DAE71AAD6F93009F9865 /* crontab-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3DB141AAD8C73009F9865 /* class */,
+				5BA3DAEC1AAD6F93009F9865 /* AppDelegate.h */,
+				5BA3DAED1AAD6F93009F9865 /* AppDelegate.m */,
+				5BA3DAEF1AAD6F93009F9865 /* ViewController.h */,
+				5BA3DAF01AAD6F93009F9865 /* ViewController.m */,
+				5BA3DAF21AAD6F93009F9865 /* Main.storyboard */,
+				5BA3DAF51AAD6F93009F9865 /* Images.xcassets */,
+				5BA3DAF71AAD6F93009F9865 /* LaunchScreen.xib */,
+				5BA3DAE81AAD6F93009F9865 /* Supporting Files */,
+			);
+			path = "crontab-ios";
+			sourceTree = "<group>";
+		};
+		5BA3DAE81AAD6F93009F9865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3DAE91AAD6F93009F9865 /* Info.plist */,
+				5BA3DAEA1AAD6F93009F9865 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BA3DB011AAD6F93009F9865 /* crontab-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3DB041AAD6F93009F9865 /* crontab_iosTests.m */,
+				5BA3DB021AAD6F93009F9865 /* Supporting Files */,
+			);
+			path = "crontab-iosTests";
+			sourceTree = "<group>";
+		};
+		5BA3DB021AAD6F93009F9865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3DB031AAD6F93009F9865 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BA3DB141AAD8C73009F9865 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				5BA3DB151AAD8C73009F9865 /* CronTabCenter.h */,
+				5BA3DB161AAD8C73009F9865 /* CronTabCenter.m */,
+				5BA3DB171AAD8C73009F9865 /* CronTabData.h */,
+				5BA3DB181AAD8C73009F9865 /* CronTabData.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA3DAE41AAD6F93009F9865 /* crontab-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA3DB081AAD6F93009F9865 /* Build configuration list for PBXNativeTarget "crontab-ios" */;
+			buildPhases = (
+				5BA3DAE11AAD6F93009F9865 /* Sources */,
+				5BA3DAE21AAD6F93009F9865 /* Frameworks */,
+				5BA3DAE31AAD6F93009F9865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "crontab-ios";
+			productName = "crontab-ios";
+			productReference = 5BA3DAE51AAD6F93009F9865 /* crontab-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BA3DAFD1AAD6F93009F9865 /* crontab-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA3DB0B1AAD6F93009F9865 /* Build configuration list for PBXNativeTarget "crontab-iosTests" */;
+			buildPhases = (
+				5BA3DAFA1AAD6F93009F9865 /* Sources */,
+				5BA3DAFB1AAD6F93009F9865 /* Frameworks */,
+				5BA3DAFC1AAD6F93009F9865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA3DB001AAD6F93009F9865 /* PBXTargetDependency */,
+			);
+			name = "crontab-iosTests";
+			productName = "crontab-iosTests";
+			productReference = 5BA3DAFE1AAD6F93009F9865 /* crontab-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA3DADD1AAD6F93009F9865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhuchao;
+				TargetAttributes = {
+					5BA3DAE41AAD6F93009F9865 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5BA3DAFD1AAD6F93009F9865 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5BA3DAE41AAD6F93009F9865;
+					};
+				};
+			};
+			buildConfigurationList = 5BA3DAE01AAD6F93009F9865 /* Build configuration list for PBXProject "crontab-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA3DADC1AAD6F93009F9865;
+			productRefGroup = 5BA3DAE61AAD6F93009F9865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA3DAE41AAD6F93009F9865 /* crontab-ios */,
+				5BA3DAFD1AAD6F93009F9865 /* crontab-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA3DAE31AAD6F93009F9865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3DAF41AAD6F93009F9865 /* Main.storyboard in Resources */,
+				5BA3DAF91AAD6F93009F9865 /* LaunchScreen.xib in Resources */,
+				5BA3DAF61AAD6F93009F9865 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3DAFC1AAD6F93009F9865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA3DAE11AAD6F93009F9865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3DB1A1AAD8C73009F9865 /* CronTabData.m in Sources */,
+				5BA3DB191AAD8C73009F9865 /* CronTabCenter.m in Sources */,
+				5BA3DAF11AAD6F93009F9865 /* ViewController.m in Sources */,
+				5BA3DAEE1AAD6F93009F9865 /* AppDelegate.m in Sources */,
+				5BA3DAEB1AAD6F93009F9865 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3DAFA1AAD6F93009F9865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA3DB051AAD6F93009F9865 /* crontab_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA3DB001AAD6F93009F9865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA3DAE41AAD6F93009F9865 /* crontab-ios */;
+			targetProxy = 5BA3DAFF1AAD6F93009F9865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BA3DAF21AAD6F93009F9865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA3DAF31AAD6F93009F9865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BA3DAF71AAD6F93009F9865 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA3DAF81AAD6F93009F9865 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA3DB061AAD6F93009F9865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BA3DB071AAD6F93009F9865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA3DB091AAD6F93009F9865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "crontab-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BA3DB0A1AAD6F93009F9865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "crontab-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BA3DB0C1AAD6F93009F9865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "crontab-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crontab-ios.app/crontab-ios";
+			};
+			name = Debug;
+		};
+		5BA3DB0D1AAD6F93009F9865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "crontab-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crontab-ios.app/crontab-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA3DAE01AAD6F93009F9865 /* Build configuration list for PBXProject "crontab-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3DB061AAD6F93009F9865 /* Debug */,
+				5BA3DB071AAD6F93009F9865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA3DB081AAD6F93009F9865 /* Build configuration list for PBXNativeTarget "crontab-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3DB091AAD6F93009F9865 /* Debug */,
+				5BA3DB0A1AAD6F93009F9865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA3DB0B1AAD6F93009F9865 /* Build configuration list for PBXNativeTarget "crontab-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA3DB0C1AAD6F93009F9865 /* Debug */,
+				5BA3DB0D1AAD6F93009F9865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA3DADD1AAD6F93009F9865 /* Project object */;
+}
